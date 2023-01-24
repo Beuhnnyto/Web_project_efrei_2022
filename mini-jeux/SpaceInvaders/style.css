@@ -1,0 +1,33 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+}*/
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: left;
+  width: 100vw;
+  background-color:#333;
+  display:flex;
+  justify-content: center;
+}
+li a {
+  display: inline;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+li a:hover {
+  background:rgba(255, 255, 255, 0.16);
+}
+.a1 {margin:0 15vh;}

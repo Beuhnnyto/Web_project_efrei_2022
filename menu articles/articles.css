@@ -1,0 +1,160 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  float: left;
+  width: 100vw;
+  background-color:#333;
+  display:flex;
+  justify-content: center;
+  
+}
+li a {
+  display: inline;
+  padding: 17px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+li a:hover {
+  background:rgba(255, 255, 255, 0.16);
+}
+.a1 {margin:0 6vh;}
+.a1 {
+  position: relative;
+}
+.a1:after,
+.a1:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.a1:hover:after {
+  width: 100%;
+}
+
+.a1{
+  transition: all 2s;
+}
+
+a1:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+a1:hover {
+  color: #fff;
+  z-index: 1;
+}
+a1:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+
+
+body {
+  background: #000119;
+  color: white;
+  height: 100vh;
+}
+
+.box {
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 5px black;
+  text-align: center;
+  margin: 20px 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box a:hover {
+  background:rgba(255, 255, 255, 0.16);
+}
+
+.box a {
+  text-decoration: none;
+  text-shadow: #000 2px 0 10px;;
+  display: block;
+  width: 100%;
+  min-width:26vw;
+  height: 100%;
+  color: white;
+  font-size: 23px;
+}
+
+h1 {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  text-shadow: 5px 3px 0 #000738;
+  text-align: center;
+}
+
+.topThree{
+  display:flex;
+  width:100vw;
+  height:30%;
+  justify-content:center;
+}
+
+.botThree{
+  display:flex;
+  width:100vw;
+  height:30%;
+  justify-content:center;
+}
+
+.b1 {background-image: url("/menu articles/menu\ articles\ index/asterix_article.jpg");
+    background-position: top;}
+.b2 {background-image: url("/menu articles/menu\ articles\ index/apollo11_article.jpg");}
+.b3 {background-image: url("/menu articles/menu\ articles\ index/viking1_article.jpg");}
+.b4 {background-image: url("/menu articles/menu\ articles\ index/voyager_article.jpg");}
+.b5 {background-image: url("/menu articles/menu\ articles\ index/hubble_article.jpg");}
+.b6 {background-image: url("/menu articles/menu\ articles\ index/ISS_article.jpg");}
+.b7 {background-image: url("/menu articles/menu\ articles\ index/perseverance_article.webp");}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 12vh;
+  background:#333;
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+.pfoot {
+  padding-top: 3vh;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  background:rgba(255, 255, 255, 0.16);
+}
+
+.titre {
+      text-shadow: 1px 1px 2px #0008ff, 0 0 1em #0D7CC0, 0 0 0.2em #0D7CC0;
+}
